@@ -1,0 +1,64 @@
+name: anon_study
+description: Premium Learning Experience - Complete Ed-Tech App with Video Player, PDF Viewer, Downloads & Analytics
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & State Management
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  
+  # Video Player & Controls (WITHOUT wakelock)
+  video_player: ^2.7.2
+  
+  # Downloads & HTTP
+  dio: ^5.3.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  
+  # Storage & Preferences
+  shared_preferences: ^2.2.2
+  
+  # External Links & Sharing
+  url_launcher: ^6.1.14
+  share_plus: ^7.2.1
+  
+  # Animations & UI
+  shimmer: ^3.0.0
+  
+  # Voice Search
+  speech_to_text: ^6.3.0
+  
+  # File handling
+  path: ^1.8.3
+  
+  # Network & API
+  http: ^1.1.0
+  connectivity_plus: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/sounds/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
